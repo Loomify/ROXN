@@ -1,12 +1,16 @@
 <script setup lang="ts">
+import Navbar from '../base-components/Navbar.vue'
 </script>
-
 <template>
-<!-- Make terms of service with avnce -->
-
-<h1>avnce Terms of Service</h1>
-<p>These terms of service ("Terms", "Agreement") are an agreement between the operator of avnce ("Website operator", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of the avnce website and any of its products or services (collectively, "Website" or "Services").</p>
-<h2>Accounts and membership</h2>
+    <Navbar />
+  <div class="terms-of-service">
+    <h1>Terms of Service</h1>
+    <p>These are the terms of service for my app. Please read them carefully before using the app.</p>
+    <ul>
+      <li>You must be at least 18 years old to use the app.</li>
+      <li>You must agree to not use the app for any illegal or harmful purposes.</li>
+      <li>We reserve the right to suspend or terminate your account at any time for any reason.</li>
+    </ul>
+    <p>By using the app, you agree to these terms of service.</p>
+  </div>
 </template>
-<style scoped>
-</style>
