@@ -30,8 +30,19 @@
                     <img src="/images/icons/defy.webp" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
                     <h1 class="card-title">Defy</h1><br>
                 </div><br>
-                <p>Defy is the founder and CEO of avnce. He is a developer and designer who started coding from the age of 9.</p> <br>
+                <p>Defy is the co-founder and Director of software at avnce. He is a developer and designer who started coding from the age of 9.</p> <br>
                 <a href="https://github.com/de-y"><img src="/images/icons/github.svg" width="35px" height="35px"></a>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="card-team">
+                <div class="icon-grp">
+                    <img src="/images/icons/prsdoc.webp" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
+                    <h1 class="card-title">Prsdoc</h1><br>
+                </div><br>
+                <p>Prsdoc is a co-founder of avnce with de-y & is the CEO. They have been friends since the 7th grade.</p> <br>
+                <a href="https://github.com/prsdoc"><img src="/images/icons/github.svg" width="35px" height="35px"></a>
                 <br>
                 <br>
                 <br>
@@ -48,6 +59,9 @@
             </div>
         </div>
       </div>
+    </div>
+    <div class="footer">
+
     </div>
 </template>
 
@@ -68,6 +82,7 @@
 }
 .container {
     background-color: #1e1e1e;
+    width: 100vw;
 }
 .card-group {
     display: flex;
@@ -95,19 +110,36 @@
     height: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.card-title {
+    /* Make it scalable with the screensize and can be adjusted */
+    font-family: 'Poppins';
+    font-size: 10px;
+}
 .card-team {
     background: #2e2e2e;
     border-radius: 10px;
     padding: 20px;
-    width: 40%;
-    height: 320px;
+    width: 45%;
+    height: 350px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .card-title {
     font-family: 'Poppins';
     font-size: 30px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1400px) {
+    .card-title {
+        font-size: 30px;
+    }
+    .card {
+        width: 100%;
+
+    }
+    .card-team {
+        width: 100%
+    }
+} 
+@media only screen and (max-width: 1000px) {
     .content {
         width: 80%;
     }
