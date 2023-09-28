@@ -1,212 +1,136 @@
 <script setup lang="ts">
-import Navbar from './base-components/Navbar.vue'
-import Footer from '/components/Footer.vue'
-
-// Make about part of navbar
+    import Navbar from './base-components/Navbar.vue'
 </script>
 <template>
-    
     <Navbar />
-    <div class="css-selector">
-        <div class="c">
-            <h1 class="pos hx">About avnce</h1>
-            <br>
-            <p class="pos1 x"><i>Innovation. Power. Speed. That is what makes avnce.</i><br>Since 2022 avnce (formerly aviance) has been trying to change the hosting dynamic by creating the most powerful of applications. Now, avnce comes from its hosting roots and diversifies.</p>
-    </div>
-    <br>
-    <br>
-    </div>
-    <div class="scale">
-        <div class="values">
-            <h1 class="cs">Core Values:</h1>
-            <br>
-            <div class="card-group">
-                <div class="card">
-                    <div class="card-content">
-                        <h2 style="color: white; font-size: 120%; text-align: center;"> 🔒 Security</h2>
-                        <p style="color: white; font-size: 65%; text-align: center; font-family:'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif">From Kosciuszko to Xen, We believe that security is important. That is why we build our applications to have security from the ground up.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <h2 style="color: white; font-size: 120%; text-align: center;"> Privacy</h2>
-                        <p style="color: white; font-size: 65%; text-align: center; font-family:'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif">We are serious when we mean this. avnce takes privacy to the next-level by ensuring that only <strong>you</strong> can see your content.</p>
-                    </div>
-                </div>
+    <div class="container">
+      <div class="content">
+        <h1 class="title"> about avnce</h1>
+        <p>Since July of 2022, avnce (formerly aviance.app) has been working on making the world of hosting better. Now, we come from our roots and diversify into more software and projects to be able to meet your software needs.</p>
+        <br>
+        <h1 class="title">core values:</h1>
+        <p>Our core values are what we stand for. They are the foundation of our company and what we believe in.</p>
+        <div class="card-group">
+            <div class="card">
+                <h1 class="card-title">🔒Privacy</h1>
+                <p>Privacy is an avnce-guaranteed right. Since its founding, avnce has always kept privacy-first by letting you not see what others can. We even have something called a privacy screen letting you know what happens to your data at an avnce related service.</p>
             </div>
+            <div class="card">
+                <h1 class="card-title">🔨 Service</h1>
+                <p>Service is a core value of avnce. We believe that service is the most important thing to a customer. We strive to make sure that you are happy with our service and that you are satisfied with our service.</p>
+            </div>          
         </div>
         <br>
-        <div class="team">
-            <h1 class="cs">The Team:</h1>
-            <br>
-            <div class="card-group">
-                <div class="card2">
-                    <div class="card-content">
-                        <div class="img-tgth">
-                            <img src="/images/icons/defy.webp" style="width: 20%; height: 20%; border-radius: 50%;"> <h2 style="color: white;">de-y</h2>
-                            <p style="color: white; font-size: 65%; text-align: center; font-family:'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif"><br>CEO/Lead Developer</p>
-                        </div>
-                        <br>
-                        <p style="color: white; font-size: 65%; text-align: center; font-family:'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif">
-                            de-y is the CEO and Lead Developer of avnce. He is a 15 year old developer who has been coding since he was 9. He has a passion for coding and loves to make new things.<br>
-
-<br>                            <a href='https://github.com/de-y' style="color: white;"><img src="/images/icons/github.svg" style="width: 10%; height: 10%; fill: white;"></a>
-                        </p>
-                        <br>
-                    </div>
-                </div>
+        <h1 class="title">Team:</h1>           
+        <p>The team is what makes avnce, avnce! Meet the lead team here:</p>
+        <br>
+        <div class="card-group-team">
+            <div class="card-team">
+                <div class="icon-grp">
+                    <img src="/images/icons/defy.webp" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
+                    <h1 class="card-title">Defy</h1><br>
+                </div><br>
+                <p>Defy is the founder and CEO of avnce. He is a developer and designer who started coding from the age of 9.</p> <br>
+                <a href="https://github.com/de-y"><img src="/images/icons/github.svg" width="35px" height="35px"></a>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="card-team">
+                <div class="icon-grp">
+                    <img src="/images/icons/icn_unknown.png" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
+                    <h1 class="card-title">TBD</h1><br>
+                </div><br>
+                <p>Someone will be placed here; as of right now, this card is under a TBD status.</p> <br>
+                <br>
+                <br>
+                <br>
             </div>
         </div>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <Footer />
 </template>
-<style>
-.hx {
-    font-family: 'Poppins', sans-serif;
-    src: url('/poppins/Poppins-Bold.ttf');
-    font-size: 300%;
+
+<style scoped>
+.title {
+    font-family: 'Poppins';
+    font-size: 50px;
 }
-.values {
-    font-family: 'Poppins', sans-serif;
-    src: url('/poppins/Poppins-Bold.ttf');
-    font-size: 150%;
-    transform: translate(5%,0%);
-    position: absolute;
-    top: 50%;
-    left: 51.5%;
-    transform: translate(-50%, 50%);
-}
-.team {
-    font-family: 'Poppins', sans-serif;
-    src: url('/poppins/Poppins-Bold.ttf');
-    font-size: 150%;
-    transform: translate(5%,0%);
-    position: absolute;
-    top: 50%;
-    left: 51.5%;
-    transform: translate(-100%, 110%);
-}
-.c {
-    background: image-url('/images/.png');
-    color: white;
+
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-.cs {
+    transform: translate(-50%, -50%);    
     color: white;
-    position: absolute;
-    left: 3%;
-    top: -8%    
+    word-wrap: break-word;
+    width: 40%;
 }
-.x {
-    overflow-wrap: break-word;
-    inline-size: 40vw;
-    font-size: 110%;
-}
-.pos {
-    font-family: 'Poppins', sans-serif;
-    src: url('/poppins/Poppins-Bold.ttf');
-}
-.pos1 {
-    font-family: 'Arial', 'light';
-    src: url('/poppins/Poppins-Light.ttf');
-}
-.css-selector {
-    background: linear-gradient(227deg, #08d432, #ffd294);
-    background-size: 400% 400%;
-
-    -webkit-animation: Pollato 32s ease infinite;
-    -moz-animation: Pollato 32s ease infinite;
-    -o-animation: Pollato 32s ease infinite;
-    animation: Pollato 32s ease infinite;
-    width: max-content;
-}
-
-@-webkit-keyframes Pollato {
-    0%{background-position:0% 13%}
-    50%{background-position:100% 88%}
-    100%{background-position:0% 13%}
-}
-@-moz-keyframes Pollato {
-    0%{background-position:0% 13%}
-    50%{background-position:100% 88%}
-    100%{background-position:0% 13%}
-}
-@-o-keyframes Pollato {
-    0%{background-position:0% 13%}
-    50%{background-position:100% 88%}
-    100%{background-position:0% 13%}
-}
-@keyframes Pollato {
-    0%{background-position:0% 13%}
-    50%{background-position:100% 88%}
-    100%{background-position:0% 13%}
+.container {
+    background-color: #1e1e1e;
 }
 .card-group {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.card {
-    background-color: #303030;
-    width: 21vw;
-    height: 12vw;
-    border-radius: 5%;
-    margin: 1vw;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.card2 {
-    background-color: #303030;
-    width: 21vw;
-    height: 20vw;
-    border-radius: 5%;
-    margin: 1vw;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.card-content {
-    padding: 1vw;
-
-}
-.img-tgth {
+.card-group-team {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.img-tgth img {
-    margin-right: 1vw;
+
+.card {
+    background: #2e2e2e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-team {
+    background: #2e2e2e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    height: 320px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 80%;
+    }
+    .card-group {
+        flex-direction: column;
+    }
+    .card-group-team {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .card-team {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+.icon-grp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 </style>
