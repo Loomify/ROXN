@@ -83,6 +83,9 @@
 .container {
     background-color: #1e1e1e;
     width: 100vw;
+    /* Get contents to fit under navbar, not ontop */
+    margin-top: 60%;
+    transform: translateY(0%);
 }
 .card-group {
     display: flex;
@@ -138,10 +141,18 @@
     .card-team {
         width: 100%
     }
+    .container {
+        margin-top: 400%;
+        transform: translateY(0%);
+    }
 } 
 @media only screen and (max-width: 1000px) {
     .content {
         width: 80%;
+    }
+    .container {
+        margin-bottom: 100%;
+        transform: translateY(0%);
     }
     .card-group {
         flex-direction: column;
@@ -164,5 +175,28 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .content {
+        width: 80%;
+    }
+    .container {
+        margin-bottom: -165%;
+        transform: translateY(0%);
+    }
+    .card-group {
+        flex-direction: column;
+    }
+    .card-group-team {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .card-team {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
 </style>

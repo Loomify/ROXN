@@ -32,4 +32,13 @@
         font-size: 15px;
     }
 }
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .css-selector {
+        height: 20vh;
+        margin-top: 7vh;
+    }
+    .css-middle {
+        font-size: 15px;
+    }
+}
 </style>

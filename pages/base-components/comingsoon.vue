@@ -108,5 +108,40 @@
     transform: translate(500%, -10%);
   }
 }
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .css-selector {
+    position: absolute;
+    background: linear-gradient(300deg, #26ddee, #5100c7);
+    background-size: 100% 100%;
 
+    -webkit-animation: Gradient 22s ease infinite;
+    -moz-animation: Gradient 22s ease infinite;
+    animation: Gradient 22s ease infinite;
+    height: 75vh;
+    width: 100.65vw;
+    transform: translate(-10px,0%);
+  }
+  .css-middle {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  .mid-left {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    /* Make font-size smaller */
+    font-size: 75%;
+
+  }
+  .mid-right {
+    position: relative;
+    left: 50%;
+    transform: translate(500%, -10%);
+  }
+}
 </style>

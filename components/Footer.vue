@@ -43,4 +43,11 @@
   color: rgb(43, 135, 255);
   text-decoration: none;
 }
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .footer {
+    transform: translateY(0%);
+    margin-top: 70vh;
+    height: 110%
+  }
+}
 </style>

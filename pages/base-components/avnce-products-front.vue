@@ -7,7 +7,7 @@
       <h1 style="font-size: 300%;">Join our mailing list!</h1>
       <p style="font-size: 125%;">So you can learn more about avnce and our cause.</p>
       <br>
-        <RouterLink to="/products"><button style="font-size: 125%;" class="button">Join Mailing List</button></RouterLink>
+        <RouterLink to="/"><button style="font-size: 125%;" class="button">Join Mailing List</button></RouterLink>
 
   </div>
   <br>

@@ -60,5 +60,31 @@
   font-size: 75px;
 }
 }
-
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+  .brandsegmentwebsite {
+    width: 100vw;
+    height: 10%;
+    color: white;
+    transform: translate(-15%, 0%);
+    resize: both;
+    text-align: center;
+    font-size-adjust: calc(0.5em + 2vw);
+    font-size: calc(0.5em + 1vw);
+    margin-left: 15%;
+    margin-bottom: 100%;
+    height: 1px;
+    margin-top: 30%; 
+  }
+  .brandsegmentwebsites {
+    transform: translateY(-25%);
+  }
+  .poppins-bold {
+    font-family: 'Poppins', Arial;
+    src: url('/poppins/Poppins-Bold.ttf');
+    color: white;
+  }
+  .lg {
+    font-size: 75px;
+  }
+}
 </style>

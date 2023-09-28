@@ -87,4 +87,23 @@ import './assets/base.css'
   overflow: hidden;
   margin-top: 12vh;
 }
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .BrandBody {
+    width: 100vw;
+    height: 100vh;
+    font-size: normal;
+    text-align: center;
+  }
+  .about {
+    color: white;
+    background-color: greenyellow;
+    width: 100vw;
+  }
+  .coming-soon {
+    color: white;
+    background-color: greenyellow;
+    width: 100vw;
+  }
+}
 </style>

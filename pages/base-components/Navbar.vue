@@ -1,13 +1,13 @@
 <template>
   <ClientOnly>
-    <nav class="NavbarDiv">
+    <div class="NavbarDiv">
     <a href="/"><h1 class="poppins-brand middle" style="font-family:'Poppins', sans-serif;src: url('/poppins/Poppins-Bold.ttf');">avnce</h1></a>
       <div class="end">
         <router-link to="/about" class="e1 poppins">About</router-link>
         <router-link to="/projects" class="e2 poppins">Projects</router-link>
-        <router-link to="/contact" class="e2 poppins">Account</router-link>
+        <router-link to="/account" class="e2 poppins">Account</router-link>
       </div>
-  </nav>
+  </div>
   </ClientOnly>
 </template>
 <style scoped>
@@ -55,5 +55,50 @@
   margin-right: 20px;
   margin-top: -40px;
 }
-
+@media screen and (max-width: 600px) {
+  .end {
+    float: right;
+    margin-right: 0px;
+    margin-top: -40px;
+  }
+  .e1 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .e2 {
+    margin-left: 10px;
+  }
+  .middle {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .NavbarDiv {
+    width: 100vw;
+    height: 20vh;
+    background: #242424;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-self: start;
+  }
+  .end {
+    float: right;
+    margin-right: 0px;
+    margin-top: -40px;
+  }
+  .e1 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .e2 {
+    margin-left: 10px;
+  }
+  .middle {
+    margin-left: 10px;
+  }
+}
 </style>
