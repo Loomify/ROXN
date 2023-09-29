@@ -39,13 +39,23 @@
                 <br>
                 <br>
             </div>
-            <div class="card-team">
+            <!-- <div class="card-team">
                 <div class="icon-grp">
                     <img src="/images/icons/prsdoc.webp" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
                     <h1 class="card-title">Prsdoc</h1><br>
                 </div><br>
                 <p>Prsdoc is a co-founder of avnce with de-y & is the CEO. They have been friends since the 7th grade.</p> <br>
                 <a href="https://github.com/prsdoc"><img src="/images/icons/github.svg" width="35px" height="35px"></a>
+                <br>
+                <br>
+                <br>
+            </div> -->
+            <div class="card-team">
+                <div class="icon-grp">
+                    <img src="/images/icons/icn_unknown.png" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
+                    <h1 class="card-title">TBD</h1><br>
+                </div><br>
+                <p>Someone will be placed here; as of right now, this card is under a TBD status.</p> <br>
                 <br>
                 <br>
                 <br>
@@ -60,6 +70,7 @@
                 <br>
                 <br>
             </div>
+
         </div>
         <br>
                 <br>
@@ -248,5 +259,31 @@
     height: 100%;
     margin-top: 200px;
     transform: translate(-30%,40%);
+}
+@media only screen and (max-width: 1400px) {
+    .container {
+        margin-top: 100%;
+        transform: translateY(10%);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 275%;
+        transform: translateY(10%);
+    }
+    .abt {
+        margin-top: 100%;
+        transform: translate(-30%,40%);
+    }
+}
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .container {
+        margin-top: 300%;
+        transform: translateY(-100%);
+    }
+    .abt {
+        margin-top: 100%;
+        transform: translate(-30%,40%);
+    }
 }
 </style>

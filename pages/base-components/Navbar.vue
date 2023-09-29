@@ -1,7 +1,7 @@
 <template>
   <ClientOnly>
     <div class="NavbarDiv">
-    <h1 class="poppins-brand middle" style="font-family:'Poppins', sans-serif;src: url('/poppins/Poppins-Bold.ttf');color:white;text-decoration: none;">avnce</h1>
+    <a href="/" class="poppins-brand middle" style="font-family:'Poppins', sans-serif;src: url('/poppins/Poppins-Bold.ttf');color:white;text-decoration: none;">avnce</a>
       <div class="end">
         <router-link to="/" class="e2 poppins">Home</router-link>
         <router-link to="/about" class="e2 poppins">About</router-link>
@@ -63,26 +63,26 @@ h1:visited {
 .NavbarDiv {
   width: 100vw;
   height: 12vh;
-  background: #242424;
+  /* background: #242424; */
   /* Add transparency */
 
   z-index: 1;
   color: white;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
 .end {
   float: right;
-  margin-right: 20px;
-  margin-top: -40px;
+  margin-right: 10px;
+  margin-top: 30px;
 }
 @media screen and (max-width: 600px) {
   .end {
     float: right;
     margin-right: 0px;
-    margin-top: -40px;
+    margin-top: 25px;
   }
   .e1 {
     margin-right: 10px;
@@ -107,8 +107,8 @@ h1:visited {
   .NavbarDiv {
     width: 100vw;
     height: 20vh;
-    background: #242424;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* background: #242424; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     z-index: 1;
     color: white;
     top: 0;
@@ -119,7 +119,7 @@ h1:visited {
   .end {
     float: right;
     margin-right: 0px;
-    margin-top: -40px;
+    margin-top: 25px;
   }
   .e1 {
     margin-right: 0px;

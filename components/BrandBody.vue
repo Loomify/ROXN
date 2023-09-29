@@ -5,7 +5,7 @@
   <ClientOnly>
     <div class="brandsegmentwebsite">
       <div class="brandsegmentwebsites">
-        <h2 class="poppins-bold cr" style="font-size: 25px;">The future of development is here.</h2>
+        <h2 class="poppins-bold cr" style="font-size: 25px;">Creating cutting-edge technology through software.</h2>
         <h1 class="poppins-bold lg cr">Welcome to avnce.</h1>
         <p class="cr" style="font-size: 20px;">Pronounced  /ˈeɪviˌæns/</p>
       </div>
