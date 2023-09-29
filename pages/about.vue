@@ -5,8 +5,11 @@
     <Navbar />
     <div class="container">
       <div class="content">
-        <h1 class="title"> about avnce</h1>
-        <p>Since July of 2022, avnce (formerly aviance.app) has been working on making the world of hosting better. Now, we come from our roots and diversify into more software and projects to be able to meet your software needs.</p>
+        <div class="abt">
+            <h1 class="title"> about avnce</h1>
+            <p>Since July of 2022, avnce (formerly aviance.app) has been working on making the world of hosting better. Now, we come from our roots and diversify into more software and projects to be able to meet your software needs.</p>
+            <img class="img" src="https://i.pinimg.com/originals/b2/e7/ed/b2e7ed0c9f442b522322791ece0c49a5.jpg" alt="Hokkaido" width="400px" height="300px">
+        </div>
         <br>
         <h1 class="title">core values:</h1>
         <p>Our core values are what we stand for. They are the foundation of our company and what we believe in.</p>
@@ -58,14 +61,35 @@
                 <br>
             </div>
         </div>
+        <br>
+                <br>
+                <br>
       </div>
     </div>
-    <div class="footer">
 
-    </div>
 </template>
 
 <style scoped>
+.footer-end {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8vh;
+  background-color: #242424;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  transform: translateY(1500%);
+}
+.poppins-footer {
+  position: relative;
+  font-size: 1.25rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
 .title {
     font-family: 'Poppins';
     font-size: 50px;
@@ -83,7 +107,6 @@
 .container {
     background-color: #1e1e1e;
     width: 100vw;
-    /* Get contents to fit under navbar, not ontop */
     margin-top: 60%;
     transform: translateY(0%);
 }
@@ -114,7 +137,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .card-title {
-    /* Make it scalable with the screensize and can be adjusted */
     font-family: 'Poppins';
     font-size: 10px;
 }
@@ -147,6 +169,19 @@
     }
 } 
 @media only screen and (max-width: 1000px) {
+    .img {
+        display: none;
+    }
+    .abt {
+        margin-top: -30%;
+        margin-left: 30%;
+        transform: translateY(0%);
+        margin-bottom: 30%;
+    }    
+    .container {
+        margin-top: 300%;
+        transform: translateY(0%);
+    }
     .content {
         width: 80%;
     }
@@ -180,6 +215,9 @@
     .content {
         width: 80%;
     }
+    .img {
+        display: none;
+    }
     .container {
         margin-bottom: -165%;
         transform: translateY(0%);
@@ -198,5 +236,17 @@
         width: 100%;
         margin-top: 20px;
     }
+}
+
+.img {
+    border-radius: 10px;
+    margin-left: 100%;
+    transform: translateY(-80%)
+}
+.abt {
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    transform: translate(-30%,40%);
 }
 </style>
