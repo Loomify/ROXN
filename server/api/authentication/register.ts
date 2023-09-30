@@ -5,7 +5,7 @@
 // })
 export default defineEventHandler(async (event) => {
   return {
-    'status': 10,
+    'status': 404,
   }
   // const body = await readBody(event)
   // var username = body.username

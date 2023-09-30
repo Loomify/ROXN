@@ -81,6 +81,7 @@
 </template>
 
 <style scoped>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap');
 .footer-end {
   position: absolute;
   bottom: 0;

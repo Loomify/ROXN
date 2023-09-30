@@ -40,6 +40,7 @@ import './assets/base.css'
   </main>
 </template>
 <style scoped>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap');
 .BrandBody {
   width: 50vw;
   height: 100vh;

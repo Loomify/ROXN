@@ -14,6 +14,7 @@
 </template>
 
 <style scoped>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap');
 .brandsegmentwebsite {
   width: 100%;
   height: 100%;

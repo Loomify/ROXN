@@ -1,9 +1,9 @@
 <template>
   <ClientOnly>
     <div class="NavbarDiv">
-    <a href="/" class="poppins-brand middle" style="font-family:'Poppins', sans-serif;src: url('/poppins/Poppins-Bold.ttf');color:white;text-decoration: none;">avnce</a>
+      <a href="/" class="poppins-brand middle" style="font-family:'Poppins', sans-serif;src: url('/poppins/Poppins-Bold.ttf');color:white;text-decoration: none;transform: translateY(0px);position: absolute;">avnce</a>
       <div class="end">
-        <router-link to="/" class="e2 poppins">Home</router-link>
+        <router-link to="/events" class="e2 poppins">Events</router-link>
         <router-link to="/about" class="e2 poppins">About</router-link>
         <router-link to="/projects" class="e2 poppins">Projects</router-link>
       </div>
@@ -11,6 +11,7 @@
   </ClientOnly>
 </template>
 <style scoped>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,900&display=swap');
 .e1 {
   margin-right: 10px;
   color: rgb(255, 255, 255);
@@ -52,7 +53,9 @@ h1:visited {
   font-weight: 900;
   font-family: 'Poppins', sans-serif;
   src: url('/poppins/Poppins-Bold.ttf');
-  margin-top: 10px;
+  margin-top: 30px;
+  transform: translate(0px, 10px);
+  transition: 0.3s;
 }
 /* a {
   text-decoration: none;
@@ -76,7 +79,7 @@ h1:visited {
 .end {
   float: right;
   margin-right: 10px;
-  margin-top: 30px;
+  margin-top: 35.5px;
 }
 @media screen and (max-width: 600px) {
   .end {
@@ -99,6 +102,12 @@ h1:visited {
 @media screen and (max-width: 1000px) and (orientation: landscape) {
   .e2 {
     margin-right: 10px;
+  }
+  .end {
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+    transform: translateY(5px);
   }
   .e1 {
     margin-right: 10px;
@@ -139,6 +148,7 @@ h1:visited {
   font-size: 40px;
   font-weight: 900;
   margin-top: 10px;
+  transform: translateY(10px);
   margin-left: 20px;
   transition: 0.3s;
 }
