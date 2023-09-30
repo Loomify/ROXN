@@ -6,7 +6,7 @@ import Navbar from './base-components/Navbar.vue'
   <Navbar/>
   <div class="force">
     <div class="mid">
-      <h1 class="poppins" style="font-size: 330%;">Our Projects:</h1>
+      <h1 class="poppins" style="font-size: 330%;">Projects:</h1>
       <p class="projects-description">Here are some of our projects that we are working on.</p>
       <br>
     <div class="card-group-vertical">
@@ -58,6 +58,37 @@ import Navbar from './base-components/Navbar.vue'
   left: 50%;
   transform: translate(-50%, -50%);
   
+}
+@media only screen and (max-width: 600px) {
+  .mid {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -200%);
+    width: 60%;
+    margin-top: 400%;
+  }
+  .footer-end {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: #242424;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    transform: translateY(850%);
+  }
+  .poppins-footer {
+    position: relative;
+    font-size: 1.25rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
 }
 @media only screen and (max-width: 800px) {
   .projects-description {
