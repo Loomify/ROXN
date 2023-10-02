@@ -282,4 +282,40 @@ a:hover {
     color: white;
   }
 }
+
+@media only screen and (max-height: 700px) {
+  .text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -15vh);
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .mid {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40%;
+  }
+  .c3 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(15%, -300%);
+
+    text-align: center;
+
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+}
 </style>
