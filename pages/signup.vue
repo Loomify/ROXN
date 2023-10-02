@@ -27,4 +27,8 @@
     pointer-events: none;
 
 }
+body {
+  background-color: #242424;
+  color: white;
+}
 </style>

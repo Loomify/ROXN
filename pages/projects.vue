@@ -283,7 +283,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-width: 600px) {
   .text {
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -317,5 +317,9 @@ a:hover {
     color: white;
   }
   
+}
+body {
+  background-color: #242424;
+  color: white;
 }
 </style>
