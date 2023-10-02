@@ -18,7 +18,7 @@
         <div class="card-group">
             <div class="card">
                 <h1 class="card-title">🔒Privacy</h1>
-                <p>Privacy is an avnce-guaranteed right. Since its founding, avnce has always kept privacy-first by letting you not see what others can. We even have something called a privacy screen letting you know what happens to your data at an avnce related service.</p>
+                <p>Privacy is an avnce-guaranteed right. Since its founding, avnce has always kept privacy-first by letting nobody else see your information. We even have something called a privacy screen letting you know what happens to your data at an avnce related service.</p>
             </div>
             <div class="card">
                 <h1 class="card-title">🔨 Service</h1>
@@ -32,7 +32,7 @@
         <div class="card-group-team">
             <div class="card-team">
                 <div class="icon-grp">
-                    <img src="/images/icons/defy.webp" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
+                    <img src="/images/icons/de-y.png" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
                     <h1 class="card-title">Defy</h1><br>
                 </div><br>
                 <p>Defy is the co-founder and Director of software at avnce. He is a developer and designer who started coding from the age of 9.</p> <br>

@@ -4,10 +4,10 @@
 <template>
 <div class="css-selector">
   <div class="css-middle">
-      <h1 style="font-size: 300%;">Join our Discord!</h1>
+      <h1 style="font-size: 300%;">Say hello!</h1>
       <p style="font-size: 125%;">So you can learn more about avnce and our cause.</p>
       <br>
-        <a href="https://discord.gg/vDKZJaYwgn"><button style="font-size: 125%;" class="button">Join Discord</button></a>
+        <a href="mailto://hello@avnce.org"><button style="font-size: 125%;" class="button">Send an Email</button></a>
 
   </div>
   <br>
