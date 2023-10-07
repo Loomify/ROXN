@@ -10,7 +10,7 @@ export default defineEventHandler((event) => {
             {
                 name: 'TBD',
                 img: '/images/icons/icn_unknown.png',
-                about: "TBD",
+                about: "To be determined in the future, as of right now; this is a placeholder.",
                 github: '#',
             }
         ]

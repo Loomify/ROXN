@@ -13,8 +13,6 @@
       <div class="content">
 
         <div class="abt">
-            <p>We are having issues with the images when you visit another part of the site and then go back, don't worry! We are fixing it.</p>
-
             <h1 class="title"> about avnce</h1>
             <p>Since July of 2022, avnce (formerly aviance.app) has been working on making the world of hosting better. Now, we come from our roots and diversify into more software and projects to be able to meet your software needs.</p>
             <img class="img" src="https://i.pinimg.com/originals/b2/e7/ed/b2e7ed0c9f442b522322791ece0c49a5.jpg" alt="Hokkaido" width="400px" height="300px">
@@ -61,18 +59,22 @@
             </div>
         </div> -->
         <div class="card-group-team">
-            <div v-for="employees in teamdata.data.value['members']" class="card-team">
-                <div class="icon-grp">
-                    <img :src="employees['img'] + '?v=' + Date.now()" alt="avatar" width="100px" height="100px" style="border-radius: 50%;" loading="eager" decoding="async">
-                    <h1 class="card-title">{{ employees['name'] }}</h1><br>
-                </div><br>
-                <p>{{ employees['about'] }}</p> <br>
-                <a :href="employees['github']"><img src="/images/icons/github.svg" alt="Github" width="35px" height="35px"></a>
-                <br>
-                <br>
-                <br>
-            </div>
+    <div v-if="teamdata" v-for="(employees, index) in teamdata.data.value['members']" :key="index" class="card-team">
+        <div class="icon-grp">
+            <img :src="employees.img" alt="Image description"  style="border-radius: 50%; width: 100px; height: 100px;">
+            <h1 class="card-title">{{ employees['name'] }}</h1><br>
+        </div><br>
+        <p>{{ employees['about'] }}</p> <br>
+        <div class="bottom-row">
+            <a :href="employees['github']">
+                <img src="/images/icons/github.svg" alt="Github" style="width: 35px; height: 35px;">
+            </a>
         </div>
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
         <br>
                 <br>
                 <br>
@@ -102,7 +104,6 @@
   left: 50%;
   transform: translate(-50%, -50%);  
 }
-
 .title {
     font-family: 'Poppins';
     font-size: 50px;
