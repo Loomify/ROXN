@@ -2,6 +2,9 @@
 const { data } = await useFetch('/api/events/events')
 </script>
 <template>
+    <head>
+        <title>avnce | events</title>
+    </head>
     <div class="events">
     <h1>Events as of {{data?.date}}:</h1>
         <li v-for="event in data?.events">

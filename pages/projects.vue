@@ -5,6 +5,9 @@ import './assets/base.css'
 </script>
 
 <template>
+  <head>
+      <title>avnce | projects</title>
+  </head>
   <Navbar/>
   <div class="force">
     <div class="mid">

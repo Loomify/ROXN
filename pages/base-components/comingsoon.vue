@@ -11,7 +11,7 @@
   </div>
   <br>
     <div class="mid-right">
-      <img src="/images/Xen.png" alt="xen" width="400" height="400">
+      <h1>Xen</h1>
     </div>
 </div>
 </template>
@@ -107,6 +107,7 @@
     left: 50%;
     transform: translate(500%, -10%);
   }
+
 }
 @media screen and (max-width: 1000px) and (orientation: landscape) {
   .css-selector {
@@ -143,5 +144,37 @@
     left: 50%;
     transform: translate(500%, -10%);
   }
+  .mid-right h1 {
+    color: white;
+    font-size: 150px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: absolute;
+    transform: translate(30%, 20%);
+  }
 }
+.mid-right h1 {
+  color: white;
+  font-size: 150px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  position: absolute;
+  transform: translate(30%, 10%);
+}
+
+@media screen and (max-width:860px) {
+  .mid-right h1 {
+    transform: translate(1000%);
+  }
+  .mid-left {
+    transform: translate(-50%, 0%);
+  }
+}
+
+@media screen and (max-width: 1535.90px) and (orientation: landscape) {
+  .mid-right h1 {
+    transform: translate(50%, 35%);
+  }
+}
+
 </style>

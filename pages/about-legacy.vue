@@ -2,19 +2,12 @@
     import Navbar from './base-components/Navbar.vue'
     import './assets/main.css'
     import './assets/base.css'
-    const teamdata = await useFetch('/api/employees')
 </script>
 <template>
-    <head>
-        <title>avnce | about</title>
-    </head>
     <Navbar />
     <div class="container">
       <div class="content">
-
         <div class="abt">
-            <p>We are having issues with the images when you visit another part of the site and then go back, don't worry! We are fixing it.</p>
-
             <h1 class="title"> about avnce</h1>
             <p>Since July of 2022, avnce (formerly aviance.app) has been working on making the world of hosting better. Now, we come from our roots and diversify into more software and projects to be able to meet your software needs.</p>
             <img class="img" src="https://i.pinimg.com/originals/b2/e7/ed/b2e7ed0c9f442b522322791ece0c49a5.jpg" alt="Hokkaido" width="400px" height="300px">
@@ -36,7 +29,7 @@
         <h1 class="title">Team:</h1>           
         <p>The team is what makes avnce, avnce! Meet the lead team here:</p>
         <br>
-        <!-- <div class="card-group-team">
+        <div class="card-group-team">
             <div class="card-team">
                 <div class="icon-grp">
                     <img src="/images/icons/de-y.png" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
@@ -48,7 +41,7 @@
                 <br>
                 <br>
             </div>
-            <div class="card-team">
+            <!-- <div class="card-team">
                 <div class="icon-grp">
                     <img src="/images/icons/prsdoc.webp" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
                     <h1 class="card-title">Prsdoc</h1><br>
@@ -58,20 +51,28 @@
                 <br>
                 <br>
                 <br>
-            </div>
-        </div> -->
-        <div class="card-group-team">
-            <div v-for="employees in teamdata.data.value['members']" class="card-team">
+            </div> -->
+            <div class="card-team">
                 <div class="icon-grp">
-                    <img :src="employees['img'] + '?v=' + Date.now()" alt="avatar" width="100px" height="100px" style="border-radius: 50%;" loading="eager" decoding="async">
-                    <h1 class="card-title">{{ employees['name'] }}</h1><br>
+                    <img src="/images/icons/icn_unknown.png" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
+                    <h1 class="card-title">TBD</h1><br>
                 </div><br>
-                <p>{{ employees['about'] }}</p> <br>
-                <a :href="employees['github']"><img src="/images/icons/github.svg" alt="Github" width="35px" height="35px"></a>
+                <p>Someone will be placed here; as of right now, this card is under a TBD status.</p> <br>
                 <br>
                 <br>
                 <br>
             </div>
+            <div class="card-team">
+                <div class="icon-grp">
+                    <img src="/images/icons/icn_unknown.png" alt="avatar" width="100px" height="100px" style="border-radius: 50%;">
+                    <h1 class="card-title">TBD</h1><br>
+                </div><br>
+                <p>Someone will be placed here; as of right now, this card is under a TBD status.</p> <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
         </div>
         <br>
                 <br>
