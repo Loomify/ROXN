@@ -23,16 +23,16 @@
         <div class="card-group">
             <div class="card">
                 <h1 class="card-title">🔒Privacy</h1>
-                <p>Privacy is an avnce-guaranteed right. Since its founding, avnce has always kept privacy-first by letting nobody else see your information. We even have something called a privacy screen letting you know what happens to your data at an avnce related service.</p>
+                <p>Privacy is an avnce-guaranteed right. Since its founding, avnce has always kept privacy-first by letting nobody see your information and incorporating this philosophy into our projects.</p>
             </div>
             <div class="card">
                 <h1 class="card-title">🔨 Service</h1>
-                <p>Service is a core value of avnce. We believe that service is the most important thing to a customer. We strive to make sure that you are happy with our service and that you are satisfied with our service.</p>
+                <p>Service is a core value of avnce. We believe that service is the most important thing to a user. We strive to make sure that you are happy with our service and that you are satisfied by providing support whenever you need it.</p>
             </div>          
         </div>
         <br>
         <h1 class="title">Team:</h1>           
-        <p>The team is what makes avnce, avnce! Meet the lead team here:</p>
+        <p>The team is what makes avnce, avnce! Meet the lead team for making our projects here:</p>
         <br>
         <!-- <div class="card-group-team">
             <div class="card-team">
