@@ -4,7 +4,7 @@ export default defineEventHandler((event) => {
             {
                 name: 'Defy',
                 img: '/images/icons/de-y.png',
-                about: "Defy is the co-founder and Director of software at avnce. He is a developer and designer who started coding from the age of 9.",
+                about: "Defy is the lead software developer at avnce. He is a developer and designer who started coding from the age of 9.",
                 github: 'https://github.com/de-y',
             },
             {
