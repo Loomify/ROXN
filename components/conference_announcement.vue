@@ -1,7 +1,7 @@
 <template>
     <div class="css-selector">  
         <div class="css-middle">
-        <p>avnce is a software company. We're currently developing our first product, but you can sign up for our newsletter to get notified when we launch it.</p>
+        <p>avnce is a not for profit organization. We're currently developing our first product that will be open-source, but you can sign up for our newsletter to get notified when we launch it.</p>
         </div>
     </div>
 </template>
