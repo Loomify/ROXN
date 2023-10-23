@@ -28,8 +28,8 @@ import './assets/base.css'
         <div class="card-content-right">
           <h1 class="">Li</h1>
           <br>
-          <p class="card-text">Li is a status monitor for avnce services that will be open-source.</p>
-          <a class="card-text" href="https://github.com/avnce/Li">Visit GitHub →</a>
+          <p class="card-text">Chi is a simple status monitor for avnce services that will be open-source.</p>
+          <a class="card-text" href="https://github.com/avnce/Chi">Visit GitHub →</a>
         </div>
         
       </div>
