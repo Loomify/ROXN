@@ -26,7 +26,7 @@ import './assets/base.css'
       </div>
       <div class="card">
         <div class="card-content-right">
-          <h1 class="">Li</h1>
+          <h1 class="">Chi</h1>
           <br>
           <p class="card-text">Chi is a simple status monitor for avnce services that will be open-source.</p>
           <a class="card-text" href="https://github.com/avnce/Chi">Visit GitHub →</a>
