@@ -3,10 +3,10 @@
 <template  style="overflow-x: hidden;">
     <footer class="footer">
       <p>©2024 avnce.<br>All rights reserved.</p>
-      <div class="links">
+      <!-- <div class="links">
         <a href="/legal/privacy">Privacy Policy</a>
         <a href="/legal/terms">Terms of Service</a>
-      </div>
+      </div> -->
     </footer>
 </template>
 <style scoped>
