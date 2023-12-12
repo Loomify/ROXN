@@ -47,6 +47,10 @@ import './assets/base.css'
   overflow: hidden;
 }
 
+.Brand {
+  overflow: hidden;
+  margin-top: 12vh;
+}
 .footer {
   transform: translateY(-0%);
 }
