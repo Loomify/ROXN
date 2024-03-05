@@ -1,0 +1,25 @@
+.landing {
+    & {
+        background-color: black;
+        color: white;
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .ft {
+        & {
+            width: fit-content;
+        }
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-family: 'Poppins-SemiBold';
+            font-size: 40px;
+        }
+    }
+}
