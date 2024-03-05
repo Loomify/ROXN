@@ -3,11 +3,11 @@ export function Navbar() {
     return (
         <>
             <div className='nav'>
-                <h1>avnce</h1>
+                <a href='/'>avnce</a>
                 <div className='nav-links'>
-                    <a href='/'>Home</a>
                     <a href='/about'>About</a>
-                    <a href='#'>Projects</a>
+                    <a href='/projects'>Projects</a>
+                    <a href='/contact'>Contact</a>
                 </div>
             </div>
         </>
