@@ -10,10 +10,19 @@
   font-family: 'Poppins-SemiBold';
   src: url('/fonts/Poppins-SemiBold.ttf');
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url('/fonts/Poppins-Black.ttf');
+}
 
 body {
   & {
     font-family: 'Poppins';
+    background-color: rgb(26, 26, 26);
   }
   *{
     margin:0!important;

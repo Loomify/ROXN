@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.suyu {
+    & {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .suyu-grid {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-wrap: wrap;
+
+    }
+    .product {
+        background-color: rgb(38, 38, 38);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        gap: 20px;
+        min-width: 300px;
+        min-height: 200px;
+        margin: auto;
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .pr-gh {
+        background-image: linear-gradient(90deg, #389fe9, #013a8a);
+    }
+    .pr-lm {
+        & {
+            background-image: linear-gradient(90deg, #f7b733, #fc4a1a);
+        }
+        h3 {
+            font-family: 'Poppins-Black';
+            font-size: 25px;
+        }
+    }
+}
+
+.tag {
+    & {
+        background-color: rgb(19, 19, 19);
+        border-radius: 10px;
+        padding: 10px;
+        width: fit-content;
+        margin: auto;
+        align-self: center;
+        transition: 500ms;
+        user-select: none;
+    }
+    .span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.tag:hover {
+    rotate: 2deg;
+    text-size-adjust: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .suyu {
+        .suyu-grid {
+            flex-direction: column;
+        }
+        .product {
+            max-width: 100%;
+        }
+    }   
+}
