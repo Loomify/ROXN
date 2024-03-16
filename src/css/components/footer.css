@@ -16,6 +16,7 @@
         background-color: #1c1c1c;
         padding: 20px 0;
         text-align: center;
+        width: 100%;
     }
     h2 {
         font-size: 15px;
@@ -79,5 +80,29 @@
     p {
         font-size: 13.5px;
         color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        & {
+            padding: 20px 0;
+        }
+        .footer-content {
+            & {
+                flex-direction: column;
+                gap: 30px;
+            }
+            .footer-content-left {
+                & {
+                    gap: 5px;
+                }
+            }
+            .footer-content-right {
+                & {
+                    gap: 5px;
+                }
+            }
+        }
     }
 }

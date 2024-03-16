@@ -4,12 +4,10 @@ import {Navbar} from '@/components/Navbar';
 import { Support } from "@/components/Support";
 import { FaPlus } from "react-icons/fa";
 import { Service } from "@/components/Services";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="landing">
         <video autoPlay loop muted src="https://www.w3schools.com/html/mov_bbb.mp4" />
         <div className="ft">
@@ -26,7 +24,6 @@ export default function Home() {
         </div>
       </div>
       <Service />
-      <Footer />
    </>
   );
 }

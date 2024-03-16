@@ -15,18 +15,23 @@ export default function CliProducts() {
     }, [])
     return (
         <>
-            {products.length === 0 ? (
-                <div className="product">
-                    <p> </p>
+            {products.length == 0 ? (
+                <div className="pr-loading product">
+                    
                 </div>
             ) : (
                 products.map((product, index) => (
-                    <div className="product" key={index}>
+                    // @ts-ignore
+                    <a key={index} className={`${product.style_class} product`} href={`${product.product_url}`}>
+                        {/* @ts-ignore */}
+                        {product.in_development ? (<><h3 className="indev">IN DEVELOPMENT</h3><br/><br/></>) : null}
+                        {/* @ts-ignore */}
+                        {product.planned ? (<h3 className="planned">PLANNED</h3>) : null}
                         {/* @ts-ignore */}
                         <h2>{product.name}</h2>
                         {/* @ts-ignore */}
                         <p>{product.description}</p>
-                    </div>
+                    </a>
                 ))
             )}
         </>

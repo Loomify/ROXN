@@ -4,16 +4,25 @@ export function GET(req: Request) {
     return NextResponse.json({
         'products': [
             {
-                'name': 'Corporate IPAW',
-                'description': 'Product 1 description'
+                'name': 'Zen',
+                'description': 'A modern hosting panel.',
+                'in_development': false,
+                'planned': true,
+                'style_class': 'ci',
+                'product_url': 'https://github.com/avnce/'
             },
             {
-                'name': 'Product 2',
-                'description': 'Product 2 description'
+                'name': 'TLEEM Courses',
+                'description': 'The powerful course platform to be utilized at TLEEM.',
+                'style_class': 'li',
+                'in_development': true,
+                'product_url': 'https://courses.tleem.org/',
             },
             {
-                'name': 'Product 3',
-                'description': 'Product 3 description'
+                'name': 'Coming Soon',
+                'description': 'This is a placeholder for a product that is coming soon.',
+                'style_class': 'pl in',
+                'product_url': '#'
             }
         ]
     })

@@ -18,13 +18,33 @@
   font-family: 'Poppins-Black';
   src: url('/fonts/Poppins-Black.ttf');
 }
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('/fonts/SourceSansPro-VariableFont.ttf');
+}
 
 body {
   & {
     font-family: 'Poppins';
     background-color: rgb(26, 26, 26);
+    color: white;
   }
   *{
     margin:0!important;
   }  
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  /* Your existing footer styles */
 }

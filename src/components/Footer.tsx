@@ -20,19 +20,19 @@ export default function Footer() {
                     <div className='footer-content-right'>
                         <div className='s-grid'>
                             <div className='links'>
-                                <h3>Mainsite</h3>
+                                <h3>Main</h3>
                                 <br />
                                 <a href='/'>Home</a>
                                 <a href='/about'>About</a>
                                 <a href='/contact'>Contact</a>
                             </div>
-                            <div className='links'>
+                            {/* <div className='links'>
                                 <h3>Developers</h3>
                                 <br />
                                 <a href='/'>Home</a>
                                 <a href='/about'>About</a>
                                 <a href='/contact'>Contact</a>
-                            </div>
+                            </div> */}
                             {/* <div className='links'>
                                 <h3>Index</h3>
                                 <br />

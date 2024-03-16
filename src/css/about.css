@@ -1,0 +1,33 @@
+.about {
+    & {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        background-color: rgb(9, 38, 124);
+    }
+    .spc {
+        font-family:'SourceSansPro', monospace;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+}
+
+.lead {
+    & {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        background-color: rgb(33, 33, 33);
+    }
+    .mission {
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.7rem;
+        }
+    }
+}
+
