@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div className="landing">
-        <video autoPlay loop muted src="https://www.w3schools.com/html/mov_bbb.mp4" />
+        {/* <video autoPlay loop muted src="https://www.w3schools.com/html/mov_bbb.mp4" /> */}
         <div className="ft">
           <p>Creating a better world through software</p>
           <h1>Welcome to avnce.</h1>
