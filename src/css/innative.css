@@ -1,0 +1,112 @@
+body {
+    color: white;
+}
+.pr-loading {
+    animation: pr-loading 1.5s infinite;
+}
+
+@keyframes pr-loading {
+    0% {
+        background-color: rgb(31, 31, 31);
+    }
+    75% {
+        background-color: rgb(46, 46, 46);
+    }
+    150% {
+        background-color: rgb(36, 36, 36);
+    }
+}
+
+.products-ir {
+    & {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        margin: auto;
+    }
+}
+.products {
+    & {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        padding: 1rem;
+        margin: auto;
+        width: 90%;
+        border-radius: 10px;
+    }
+    .product {
+        & {
+            background-color: rgb(31, 31, 31);
+            text-align: center;
+            padding: 1rem;
+            margin: auto;
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .products {
+        & {
+            flex-direction: column;
+            width: 90%;
+            align-self: center;
+            align-content: center;
+            align-items: center;
+        }
+    }    
+}
+
+.content_loading {
+    & {
+        background-color: black;
+    }
+}
+
+.ci {
+    & {
+        background-image: linear-gradient(90deg, #389fe9, #013a8a);
+    }
+}
+.indev {
+    & {
+        background-color: rgb(51, 51, 51);
+        padding: 5px;
+        border-radius: 10px;
+        margin: 0;
+    }
+}
+.planned {
+    & {
+        background-color: rgb(25, 32, 69);
+        padding: 5px;
+        border-radius: 10px;
+        }
+}
+.li {
+    & {
+        background-image: linear-gradient(90deg, #f7b733, #fc4a1a);
+    }
+    /* h2 {
+        font-family: 'Poppins-Black';
+    } */
+}
+
+.in {
+    user-select: none;
+}
