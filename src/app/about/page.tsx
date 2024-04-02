@@ -6,7 +6,6 @@ export default function About() {
         <>
             <div className="about">
                 <h1>about avnce</h1>
-                <p className="spc">avnce/about</p>
             </div>
             <div className="lead">
                 <div className="mission">
