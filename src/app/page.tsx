@@ -15,14 +15,14 @@ export default function Home() {
           <h1>Welcome to avnce.</h1>
         </div>
       </div>
-      <div className="trust">
+      {/* <div className="trust">
         <br />
         <h2>Trusted by nonprofits and companies alike</h2>
         <div className="trust-logos">
           <a href="https://tleem.org/" className="tleem-logo">TLEEM</a>
-          {/* <a className="create-contact"><span><FaPlus /></span></a> */}
+          <a className="create-contact"><span><FaPlus /></span></a>
         </div>
-      </div>
+      </div> */}
       <Service />
    </>
   );

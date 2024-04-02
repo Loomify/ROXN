@@ -12,11 +12,11 @@ export function GET(req: Request) {
                 'product_url': 'https://github.com/avnce/'
             },
             {
-                'name': 'TLEEM Courses',
-                'description': 'The powerful course platform to be utilized at TLEEM.',
+                'name': 'Loom',
+                'description': "The powerful LMS replacement for traditional LMS', with it being in developement.",
                 'style_class': 'li',
                 'in_development': true,
-                'product_url': 'https://courses.tleem.org/',
+                'product_url': 'https://github.com/de-y/Loom',
             },
             {
                 'name': 'Coming Soon',
