@@ -49,7 +49,7 @@ export function Navbar() {
                                     z-index: 1000;
                                     align-items: center;
                                 }
-                                h1 {
+                                a {
                                     font-family: 'XB Niloofar';
                                     margin-left: 30px;
                                 }
@@ -57,7 +57,7 @@ export function Navbar() {
                 `}
             </style>
             <div className='navbar' id='nav'>
-                <h1>Loom.</h1>
+                <a href="/">Loom.</a>
             </div>
         </>
     )
