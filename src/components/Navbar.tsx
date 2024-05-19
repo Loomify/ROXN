@@ -1,4 +1,5 @@
 'use client';
+import '@/css/components/navbar.css';
 
 export function Navbar() {
     if (typeof window != 'undefined') {
