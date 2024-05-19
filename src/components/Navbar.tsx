@@ -1,5 +1,4 @@
 'use client';
-import '@/css/components/navbar.css';
 
 export function Navbar() {
     if (typeof window != 'undefined') {
@@ -35,8 +34,31 @@ export function Navbar() {
         }    
     }
     return (
-        <div className='navbar' id='nav'>
-            <h1>Loom.</h1>
-        </div>
+        <>
+            <style>
+                {`
+                            .navbar {
+                                & {
+                                    position: fixed;
+                                    display: flex;
+                                    top: 0;
+                                    width: 100%;
+                                    left: 0;
+                                    height: 70px;
+                                    margin: auto;
+                                    z-index: 1000;
+                                    align-items: center;
+                                }
+                                h1 {
+                                    font-family: 'XB Niloofar';
+                                    margin-left: 30px;
+                                }
+                            }
+                `}
+            </style>
+            <div className='navbar' id='nav'>
+                <h1>Loom.</h1>
+            </div>
+        </>
     )
 }
