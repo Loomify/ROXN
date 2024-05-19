@@ -8,7 +8,7 @@ import { Announcement } from "@/components/Announcement";
 export const metadata: Metadata = {
   title: "Loom",
   metadataBase: new URL('https://avnce.org/'),
-  description: "The community where science and technology intersect to make wonders within applications and research.",
+  description: "The community where science and technology intersect to make wonders.",
   openGraph: {
     images: "/loom_tch_scn.png",
   },
