@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Loom",
   description: "The community where science and technology intersect to make wonders within applications and research.",
   openGraph: {
-    images: "https://avnce.org/loom_tch_scn.png",
+    images: "https://avnce.org/images/loom_tch_scn.png",
   },
 };
 
