@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import 'normalize.css';
-import Footer from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "avnce",
-  description: "Creating a better world through software",
+  title: "Loom",
+  description: "The community where science and technology intersect to make wonders within applications and research.",
 };
 
 export default function RootLayout({
@@ -16,14 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-          <div className="site-container">
-            <Navbar />
-            <div className="content-container">
-              {children}
-            </div>
-            <Footer />
-          </div>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
