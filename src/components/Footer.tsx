@@ -1,4 +1,5 @@
-import '@/css/components/Footer.css'
+import '@/css/components/Footer.css';
+
 import Link from 'next/link'
 import { SiDiscord, SiX } from '@icons-pack/react-simple-icons';
 
