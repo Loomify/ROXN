@@ -18,6 +18,11 @@
   src: url('/fonts/XBNiloofar.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Exo2';
+  src: url('/fonts/Exo2.ttf') format('truetype');
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

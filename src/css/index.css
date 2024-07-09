@@ -1,0 +1,34 @@
+.front_hero {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.font_hero_slogan {
+    & {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 600;
+        width: 50%;
+        font-family: 'NunitoSans';
+    }
+    span {
+        font-family: 'Exo2';
+    }
+}
+
+.font_hero_content {
+    & {
+        margin-left: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .font_hero_text {
+        font-family: 'Assistant';
+        font-size: 1.2em;
+    }
+}
