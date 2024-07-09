@@ -63,3 +63,23 @@
         }
     }
 }
+
+.footer_socials_link li a {
+    & {
+        color: white;
+        transition: 450ms;
+    }
+    &:hover {
+        color: #464646;
+    }
+}
+
+.footer_socials_discord {
+    & {
+        color: inherit;
+        transition: 450ms;
+    }
+    &:hover {
+        color: #738adb !important;
+    }
+}

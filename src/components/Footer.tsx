@@ -1,4 +1,4 @@
-import '@/css/components/Footer.css';
+import './Footer.css';
 
 import Link from 'next/link'
 import { SiDiscord, SiX } from '@icons-pack/react-simple-icons';
@@ -9,8 +9,7 @@ export function Footer() {
             <div className='footer_brand'>
                 <Link className='logo_font' href='/'>Loom.</Link>
                 <ul className='footer_socials_link'>
-                    <li><Link href='/socials/discord'><SiDiscord /></Link></li>
-                    <li><Link href='/socials/twitter'><SiX /></Link></li>
+                    <li><Link className='footer_socials_discord' href='/socials/discord'><SiDiscord /></Link></li>
                 </ul>
             </div>
             <div className='footer_links'>
