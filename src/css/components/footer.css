@@ -1,52 +1,17 @@
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #222222;
-    border-radius: 10px;
-    flex-direction: column;
-}
-
-h3 {
-    color: #949494;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-
-}
-.social {
+.footer_page {
     & {
+        background-color: rgb(32, 32, 32);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 1em;
         display: flex;
-        gap: 20px;
-        padding-top: 30px;
     }
-    a {
-        color: #adadad;
-        font-size: 1.5rem;
-        transition: 500ms;
-    }
-    a:hover {
-        color: #fff;
-    }
-}
-.links {
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
 }
 
-.col {
-    & {
-        display: flex;
-        flex: 1;
-        gap: 5px;
-        flex-direction: column;
-        text-align: center;
-    }
-    a {
-        color: #919191;
-        transition: 500ms;
-    }
-    a:hover {
-        color: #fff;
+.footer_brand {
+    .logo_font {
+        font-size: 1.75em;
+        word-spacing: 1px;
     }
 }

@@ -1,21 +1,27 @@
 @font-face {
-  font-family: 'XB Niloofar';
-  src: url('/fonts/XBNiloofar.ttf');
+  font-family: 'Assistant';
+  src: url('/fonts/Assistant.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'XB NiloofarBd';
-  src: url('/fonts/XBNiloofarBd.ttf');
+  font-family: 'NunitoSans';
+  src: url('/fonts/NunitoSans.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'DMSans';
-  src: url('/fonts/DMSans.ttf');
+  font-family: 'NunitoSans-Italic';
+  src: url('/fonts/NunitoSans-Italic.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Raleway';
-  src: url('/fonts/Raleway.ttf');
+  font-family: 'Logo';
+  src: url('/fonts/XBNiloofar.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html,
@@ -44,26 +50,8 @@ a {
     color-scheme: dark;
   }
 }
-/* 
-.container {
-  margin-top: 50px;
-  position: fixed;
-  width: 100%;
-  left: 0;
-} */
-body {
-  /* background-color: rgb(19, 19, 19); */
-  font-family: 'DMSans';
-  color: white;
-}
 
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-      transition: 500ms;
-  }
-  to {
-      opacity: 1;
-      transition: 500ms;
-  }
+
+.logo_font {
+  font-family: 'Logo', sans-serif;
 }

@@ -1,20 +1,28 @@
 .navbar {
     & {
-        position: fixed;
+        background-color: rgb(32, 32, 32);
+        color: white;
+        padding: 1em;
         display: flex;
-        top: 0;
-        width: 100%;
-        left: 0;
-        height: 70px;
-        margin: auto;
-        z-index: 1000;
+        justify-content: space-between;
         align-items: center;
     }
-
+    .logo_font {
+        font-size: 1.75em;
+        word-spacing: 1px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+    }
 }
 
-a {
-    font-family: 'XB Niloofar';
-    margin-left: 30px;
-    font-size: 2rem;
+.nav_links .link {
+    & {
+        transition: 500ms;
+        font-family: 'Assistant', sans-serif;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
 }
