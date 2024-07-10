@@ -1,0 +1,9 @@
+.annoncement_front {
+    background-color: rgb(15, 98, 223);
+    width: 100%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'NunitoSans';
+}

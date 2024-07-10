@@ -1,12 +1,16 @@
+import { Footer } from '@/components/Footer';
+import { Navbar } from '@/components/Navbar';
 import '@/css/index.css';
-import { Search } from 'react-feather';
+import { SiDiscord } from '@icons-pack/react-simple-icons';
+import { Box, Search, Users } from 'react-feather';
 export default function Home() {
   return (
     <>
+      <Navbar />
       <div className='front_hero'>
         <div className='font_hero_content'>
-          <h1 className='font_hero_slogan'><span>idek</span> what do I put here?</h1>
-          <p className='font_hero_text'>.</p>
+          <h1 className='font_hero_slogan'><span>Leading change</span> in programming and research</h1>
+          <p className='font_hero_text'>One step at a time.</p>
         </div>
       </div>
       <div className='explore'>
@@ -31,9 +35,14 @@ export default function Home() {
               <p>The applications wing is dedicated to be able to develop applications that allow for necessary functions of Loom to applications that improve research and beyond.</p>
             </div>
           </div>
-
         </div>
       </div>
+      <div className='services'>
+        <h2><Users /> Community</h2>
+        <p>Join our Discord server so that you can get the latest updates on applications and research being made and be able to be able to participate in a wing.</p>
+        <a href='/socials/discord'><SiDiscord /> Join our Discord</a>
+      </div>
+      <Footer />
     </>
   );
 }

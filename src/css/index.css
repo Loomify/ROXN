@@ -99,14 +99,12 @@
         }
     }
 }
-
-
 .explore_content {
     width: 100%;
     display: flex;
     gap: 1em;
     justify-content: center;
-    min-height: 25vh;
+    min-height: 30vh;
 }
 
 @keyframes fadeIn {
@@ -115,5 +113,42 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+.services {
+    & {
+        display: flex;
+        gap: 1em;
+        padding: 2.5em;
+        flex-direction: column;
+        background-color: rgb(36, 36, 36);
+        justify-content: center;
+        align-items: center;
+        font-family: 'NunitoSans';
+
+    }
+    h2 {
+        display: flex;
+        gap: 0.5em;
+        font-size: 1.5em;
+        justify-content: center;
+        align-items: center;
+    }
+    a {
+        & {
+            text-decoration: none;
+            color: white;
+            background-color: rgb(4, 110, 49);
+            padding: 1em;
+            border-radius: 10px;    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+        }
+        &:focus {
+            background-color: rgb(4, 146, 63);
+        }
     }
 }
